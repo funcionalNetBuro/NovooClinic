@@ -61,8 +61,8 @@
                         <notebook>
                             <page string="General Information">
                                 <group string="Patient General Information">
-                                <!--    <group>
-					<field name="x_toma_medicacion"/>
+                                    <group>
+				<!--	<field name="x_toma_medicacion"/>
 					<field name="x_nombre_medicacion"
 						attrs="{'invisible':[('x_toma_medicacion','=',False)]}"/>
 					<field name="x_alergia"/>
