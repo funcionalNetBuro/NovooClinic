@@ -24,6 +24,7 @@
                                         default_focus="1" placeholder="Patient Name"
                                         context="{'default_is_patient': 1,'default_is_person': 1}"
                                          />
+					<field name="x_contacto" />
                                 </h1>
                             </div>
                         </group>
