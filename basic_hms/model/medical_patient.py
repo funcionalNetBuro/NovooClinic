@@ -37,7 +37,7 @@ class medical_patient(models.Model):
                 rec.age = str(rd.years) + "y" +" "+ str(rd.months) + "m" +" "+ str(rd.days) + "d"
             else:
                 rec.age = "No Date Of Birth!!"
-    x_contacto = fields.Char(related='patient_id.street', readonly=False)
+    x_contacto = fields.Char(related='patient_id.street', string="Contacto", readonly=False)
     # x_contacto = fields.Char('patient_id.name')                
     patient_id = fields.Many2one('res.partner',domain=[('is_patient','=',True)],string="Patient", required= True)
     name = fields.Char(string='ID', readonly=True)
