@@ -406,6 +406,7 @@
             <field name="arch" type="xml">
                 <tree string="Patient Information">
                     <field name="name" />
+		    <field name="x_contacto" />
                     <field name="patient_id" />
                     <field name="sex" />
                     <field name="date_of_birth" />
