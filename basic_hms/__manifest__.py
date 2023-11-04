@@ -37,7 +37,7 @@
 """,
 
     "depends": ["base", "sale_management", "stock", "account"],
-    "images": ['static/description/icon.png'],
+   # "images": ['static/description/icon.png'],
     
     "data": [
         'security/hospital_groups.xml',
