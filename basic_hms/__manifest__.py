@@ -3,7 +3,8 @@
 
 {
 
-    "name": "Basic Hospital Management System in Odoo",
+    #"name": "Basic Hospital Management System in Odoo",
+    "name": "NovooClinic",
     "version": "16.0.0.2",
     "currency": 'EUR',
     "summary": "Apps basic Hospital Management system Healthcare Management Clinic Management apps manage clinic manage Patient hospital manage Healthcare system Patient Management Hospital Management Healthcare Management Clinic Management hospital Lab Test Request",
@@ -36,6 +37,8 @@
 """,
 
     "depends": ["base", "sale_management", "stock", "account"],
+    "images": ['static/description/icon.png'],
+    
     "data": [
         'security/hospital_groups.xml',
         'security/ir.model.access.csv',
