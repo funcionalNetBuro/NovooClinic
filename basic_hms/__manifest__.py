@@ -35,7 +35,7 @@
     
 """,
 
-    "depends": ["base", "sale_management", "stock", "account", "res.partner", ],
+    "depends": ["base", "sale_management", "stock", "account"],
     "data": [
         'security/hospital_groups.xml',
         'security/ir.model.access.csv',
@@ -83,7 +83,6 @@
         'views/medical_test_type.xml',
         'views/medical_vaccination.xml',
         'views/res_partner.xml',
-        'views/res_partner_01',
         'report/report_view.xml',
         'report/appointment_recipts_report_template.xml',
         'report/medical_view_report_document_lab.xml',
