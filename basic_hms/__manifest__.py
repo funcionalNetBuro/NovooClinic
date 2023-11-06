@@ -35,7 +35,7 @@
     
 """,
 
-    "depends": ["base", "sale_management", "stock", "account"],
+    "depends": ["base", "sale_management", "stock", "account", "contacts"],
     "data": [
         'security/hospital_groups.xml',
         'security/ir.model.access.csv',
