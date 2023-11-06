@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<!--<?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record id="view_form_res.partner" model="ir.ui.view">
       <field name="name">res_partner_01</field>
@@ -11,4 +11,19 @@
         </xpath>
       </field>    
     </record>  
+</odoo>
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+        <record id="res_partner_inherit_form" model="ir.ui.view">
+            <field name="name">res.partner.inherit.form.health.center.view</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form" />
+            <field name="arch" type="xml">
+                <field name="function" position="after">
+                    <field name="is_patient" />
+                </field>              
+            </field>
+        </record>
 </odoo>
