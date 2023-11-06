@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-  <data>
     <record id="view_form_res.partner" model="ir.ui.view">
       <field name="name">res_partner_01</field>
       <field name="model">res.partner</field>
@@ -11,6 +10,5 @@
           <field name="is_patient" string="Es paciente"/>
         </xpath>
       </field>    
-    </record>
-  </data>
+    </record>  
 </odoo>
