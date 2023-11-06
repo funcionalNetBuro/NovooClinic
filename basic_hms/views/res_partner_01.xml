@@ -5,7 +5,7 @@
   <data>
     <record id="vista_form_res.partner" model="ir.ui.view">
       <!--<field name="name">res.partner.form.view</field>-->
-      <field name="vista_formulario_contactos</field>
+      <field name="name">vista_formulario_contactos</field>
       <field name="model">res.partner</field>
       <field name="inherit_id" ref="base.view_partner_form"/>
       <field name="mode"primary</field>
