@@ -8,7 +8,6 @@
       <field name="name">vista_formulario_contactos</field>
       <field name="model">res.partner</field>
       <field name="inherit_id" ref="base.view_partner_form"/>
-      <field name="mode"primary</field>
       <field name="priority" eval="17"/>
       <field name="arch" type="xml">
         <xpath expr=//field[@name='function'] position="after">
