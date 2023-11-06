@@ -10,7 +10,7 @@
       <field name="inherit_id" ref="base.view_partner_form"/>
       <field name="priority" eval="17"/>
       <field name="arch" type="xml">
-        <xpath expr=//field[@name='function'] position="after">
+        <xpath expr=//field[@name='vat'] position="after">
           <field name="is_patient" string="Es paciente"/>
         </xpath>
       </field>    
