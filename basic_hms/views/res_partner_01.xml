@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-  <record id="view_res.partner_form" model="ir.ui.view">
   <data>
-    <record id="vista_form_res.partner" model="ir.ui.view">
+    <record id="view_form_res.partner" model="ir.ui.view">
       <field name="name">res.partner.form.view</field>
       <field name="model">res.partner</field>
       <field name="inherit_id" ref="base.view_partner_form"/>
-      <field name="priority" eval="50"/>
+      <field name="priority" eval="17"/>
       <field name="arch" type="xml">
         <xpath expr="//field[@name='vat']" position="after">
           <field name="is_patient" string="Es paciente"/>
