@@ -69,7 +69,7 @@
 						attrs="{'invisible':[('x_toma_medicacion','=',False)]}"/>
 					  -->
                                       
-
+                                        <field name ="x_alergias" />
                                         <field name="blood_type" />
                                         <field name="current_insurance_id" />
                                     </group>
