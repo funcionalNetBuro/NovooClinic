@@ -71,6 +71,9 @@
                                       
                                         <field name ="x_alergias" />
                                         <field name ="x_medicacion" />
+                                        <field name="medical_medicament_id"
+                                            attrs="{'invisible':[('x_medicacion','=',False)],'required':[('x_medicacion','=',1)]}" />
+
                                         <field name ="x_intervencinoes" />
 
 
