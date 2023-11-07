@@ -63,16 +63,11 @@
                         <notebook>
                             <page string="General Information">
                                 <group string="Patient General Information">
-                                    <group>
-				<!--	<field name="x_toma_medicacion"/>
-					<field name="x_nombre_medicacion"
-						attrs="{'invisible':[('x_toma_medicacion','=',False)]}"/>
-					  -->
-                                      
+                                    <group>                                     
                                         <field name ="x_alergias" />
                                         <field name ="x_medicacion" />
-                                        <field name="medical_medicament_id" widget="section_and_note_one2many"
-                                            attrs="{'invisible':[('x_medicacion','=',False)],'required':[('x_medicacion','=',1)]}" />
+                                       <!-- <field name="medical_medicament_id" widget="section_and_note_one2many"
+                                            attrs="{'invisible':[('x_medicacion','=',False)],'required':[('x_medicacion','=',1)]}" /> -->
 
                                         <field name ="x_intervencinoes" />
 
