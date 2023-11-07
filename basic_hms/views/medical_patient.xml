@@ -34,6 +34,11 @@
 				<field name="x_dni_paciente" />
                                 <field name="date_of_birth" />
                                 <field name="marital_status" />
+
+                                <field name="x_alergias" />
+                                <field name="x_medicacion" />
+                                <field name="x_intervenciones" />
+
                             </group>
 
                             <group>
@@ -67,9 +72,7 @@
 					<field name="x_nombre_medicacion"
 						attrs="{'invisible':[('x_toma_medicacion','=',False)]}"/>
 					  -->
-                                       <field name="x_alergias" />
-                                       <field name="x_medicacion" />
-                                       <field name="x_intervenciones" />
+                                      
 
                                         <field name="blood_type" />
                                         <field name="current_insurance_id" />
