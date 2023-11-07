@@ -66,15 +66,10 @@
 				<!--	<field name="x_toma_medicacion"/>
 					<field name="x_nombre_medicacion"
 						attrs="{'invisible':[('x_toma_medicacion','=',False)]}"/>
-					<field name="x_alergia"/>
-					<field name="x_nombre_alergia"
-						attrs="{'invisible':[('x_alergia','=',False)]}"/>
-					<field name="x_operaciones"/>
-					<field name="x_nombre_operaciones"
-						attrs="{'invisible':[('x_operaciones','=',False)]}"/>  -->
-                                       <field name="x_alergias"/>
-                                       <field name="x_medicacion"/>
-                                       <field name="x_intervenciones"/>
+					  -->
+                                       <field name="x_alergias" />
+                                       <field name="x_medicacion" />
+                                       <field name="x_intervenciones" />
 
                                         <field name="blood_type" />
                                         <field name="current_insurance_id" />
