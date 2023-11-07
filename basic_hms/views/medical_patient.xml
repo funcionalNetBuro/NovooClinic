@@ -36,8 +36,6 @@
                                 <field name="marital_status" />
 
                                 <field name="x_alergias" />
-                                <field name="x_medicacion" />
-                                <field name="x_intervenciones" />
 
                             </group>
 
