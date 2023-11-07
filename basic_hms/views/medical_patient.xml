@@ -70,6 +70,10 @@
 					  -->
                                       
                                         <field name ="x_alergias" />
+                                        <field name ="x_medicacion" />
+                                        <field name ="x_intervencinoes" />
+
+
                                         <field name="blood_type" />
                                         <field name="current_insurance_id" />
                                     </group>
