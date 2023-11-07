@@ -72,7 +72,9 @@
 					<field name="x_operaciones"/>
 					<field name="x_nombre_operaciones"
 						attrs="{'invisible':[('x_operaciones','=',False)]}"/>  -->
-
+                                       <field name="x_alergias"/>
+                                       <field name="x_medicacion"/>
+                                       <field name="x_intervenciones"/>
 
                                         <field name="blood_type" />
                                         <field name="current_insurance_id" />
