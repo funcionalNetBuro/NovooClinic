@@ -38,7 +38,7 @@ class medical_patient(models.Model):
             else:
                 rec.age = "No Date Of Birth!!"
 
-    x_dni_paciente = fields.Many2one(related='patient_id.vat', string="DNI", readonly=False)
+    x_dni_paciente = fields.Cahr(related='patient_id.vat', string="DNI", readonly=True)
     patient_id = fields.Many2one('res.partner',domain=[('is_patient','=',True)],string="Patient", required= True)
     name = fields.Char(string='ID', readonly=True)
     last_name = fields.Char('Last Name')
