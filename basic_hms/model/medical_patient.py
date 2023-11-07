@@ -39,11 +39,10 @@ class medical_patient(models.Model):
                 rec.age = "No Date Of Birth!!"
 
     
-    #x_alergias = fields.Boolean(strings = ('Alergias')
-    #x_medicacion = fields.Boolean(strings = ('Toma medicación')
-    #x_intervenciones = fields.Boolean(strings = ('Tiene intervenciones quirúrgicas')
+  
     x_alergias = fields.Boolean(string="Alergias")
-
+    x_medicacion = fields.Boolean(string="Toma medicación")
+    x_intervenciones = fields.Boolean(string="Intervenciones")
     x_dni_paciente = fields.Char(related='patient_id.vat', string="DNI", readonly=True)
     patient_id = fields.Many2one('res.partner',domain=[('is_patient','=',True)],string="Patient", required= True)
     name = fields.Char(string='ID', readonly=True)
