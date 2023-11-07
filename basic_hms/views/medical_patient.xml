@@ -71,7 +71,7 @@
                                       
                                         <field name ="x_alergias" />
                                         <field name ="x_medicacion" />
-                                        <field name="medical_medicament_id"
+                                        <field name="medical_medicament_id" widget="section_and_note_one2many"
                                             attrs="{'invisible':[('x_medicacion','=',False)],'required':[('x_medicacion','=',1)]}" />
 
                                         <field name ="x_intervencinoes" />
