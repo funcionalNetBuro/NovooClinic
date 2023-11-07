@@ -35,8 +35,6 @@
                                 <field name="date_of_birth" />
                                 <field name="marital_status" />
 
-                                <field name="x_alergias" />
-
                             </group>
 
                             <group>
