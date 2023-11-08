@@ -47,10 +47,6 @@ class medical_patient(models.Model):
     x_intervencinoes = fields.Boolean(string="Intervenciones")
     x_nombre_intervenciones = fields.Char(string = 'Indique intervenciones', readonly =False)
     x_dni_paciente = fields.Char(related='patient_id.vat', string="DNI", readonly=True)
-    x_plantillas = fields.Many2one('sign.template', string ="Plantilla")
-    x_plantilla1 = fields.Many2one('related='x_plantillas.attachment_id', string ="Plantilla", readonly =True)
-    
-    
     patient_id = fields.Many2one('res.partner',domain=[('is_patient','=',True)],string="Patient", required= True)
     name = fields.Char(string='ID', readonly=True)
     last_name = fields.Char('Last Name')
