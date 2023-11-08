@@ -41,6 +41,7 @@ class medical_patient(models.Model):
     
   
     x_alergias = fields.Boolean(string="Alergias")
+    <_nombre_alergias = fields.Char(string = 'Nombre Alergias')
     x_medicacion = fields.Boolean(string="Toma medicación")
     x_intervencinoes = fields.Boolean(string="Intervenciones")
     x_dni_paciente = fields.Char(related='patient_id.vat', string="DNI", readonly=True)
