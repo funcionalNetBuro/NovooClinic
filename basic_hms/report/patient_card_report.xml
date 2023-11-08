@@ -40,6 +40,11 @@
 												<b>Blood Group:</b>
 												<span t-field='o.blood_type' />
 												<br></br>
+													
+												<b>Nombre alergias</b>
+												<span t-field="o.x_alergias"/>
+												<br></br>
+													
 												<b>Address:</b>
 												<span
 													t-raw="'%s' % o.patient_id.street if  o.patient_id.street  else ''" />
