@@ -4,10 +4,12 @@
 {
 
     #"name": "Basic Hospital Management System in Odoo",
-    "name": "NovooClinic",
-    "version": "16.0.0.2",
-    "currency": 'EUR',
+    #"version": "16.0.0.2",
     #"summary": "Apps basic Hospital Management system Healthcare Management Clinic Management apps manage clinic manage Patient hospital manage Healthcare system Patient Management Hospital Management Healthcare Management Clinic Management hospital Lab Test Request",
+    
+    "name": "NovooClinic",
+    "version": "1.0",
+    "currency": 'EUR',    
     "summary":"Aplicación de sistema de gestión clínica",
     "category": "Industries",
     "description": """
