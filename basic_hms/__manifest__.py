@@ -7,7 +7,8 @@
     "name": "NovooClinic",
     "version": "16.0.0.2",
     "currency": 'EUR',
-    "summary": "Apps basic Hospital Management system Healthcare Management Clinic Management apps manage clinic manage Patient hospital manage Healthcare system Patient Management Hospital Management Healthcare Management Clinic Management hospital Lab Test Request",
+    #"summary": "Apps basic Hospital Management system Healthcare Management Clinic Management apps manage clinic manage Patient hospital manage Healthcare system Patient Management Hospital Management Healthcare Management Clinic Management hospital Lab Test Request",
+    "summary":"Aplicación de sistema de gestión clínica",
     "category": "Industries",
     "description": """
     BrowseInfo developed a new odoo/OpenERP module apps
