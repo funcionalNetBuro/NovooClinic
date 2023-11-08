@@ -65,6 +65,7 @@
                                 <group string="Patient General Information">
                                     <group>                                     
                                         <field name ="x_alergias" />
+					<field name ="x_nombre_alergias" />
                                         <field name ="x_medicacion" />
                                        <!-- <field name="medical_medicament_id" widget="section_and_note_one2many"
                                             attrs="{'invisible':[('x_medicacion','=',False)],'required':[('x_medicacion','=',1)]}" /> -->
