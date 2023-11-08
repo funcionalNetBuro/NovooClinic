@@ -41,7 +41,7 @@
 												<span t-field='o.blood_type' />
 												<br></br>
 													
-												<b>Alergia a:</b>
+												<b>Alergias:</b>
 												<span t-field="o.x_nombre_alergias"/>
 												<br></br>
                                                                                                 <b>Medicación:</b>
