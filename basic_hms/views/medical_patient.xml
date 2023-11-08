@@ -68,11 +68,11 @@
 					<field name ="x_nombre_alergias"
 						attrs="{'invisible':[('x_alergias','=',False)]}" />
                                         <field name ="x_medicacion" />
-                                      
-
-                                        <field name ="x_intervencinoes" />
-
-
+					<field name ="x_nombre_medicacion"
+						attrs="{'invisible':[('x_medicacion','=',False)]}" />
+					<field name ="x_intervencinoes" />
+					<field name ="x_nombre_intervencinoes"
+						attrs="{'invisible':[('x_intervencinoes','=',False)]}" />
                                         <field name="blood_type" />
                                         <field name="current_insurance_id" />
                                     </group>
