@@ -34,6 +34,15 @@
 				<field name="x_dni_paciente" />
                                 <field name="date_of_birth" />
                                 <field name="marital_status" />
+				<field name ="x_alergias" />
+				<field name ="x_nombre_alergias"
+					attrs="{'invisible':[('x_alergias','=',False)]}" />
+                                <field name ="x_medicacion" />
+				<field name ="x_nombre_medicacion"
+					attrs="{'invisible':[('x_medicacion','=',False)]}" />
+				<field name ="x_intervencinoes" />
+				<field name ="x_nombre_intervenciones"
+					attrs="{'invisible':[('x_intervencinoes','=',False)]}" />
 
                             </group>
 
@@ -64,15 +73,7 @@
                             <page string="General Information">
                                 <group string="Patient General Information">
                                     <group>                                     
-                                        <field name ="x_alergias" />
-					<field name ="x_nombre_alergias"
-						attrs="{'invisible':[('x_alergias','=',False)]}" />
-                                        <field name ="x_medicacion" />
-					<field name ="x_nombre_medicacion"
-						attrs="{'invisible':[('x_medicacion','=',False)]}" />
-					<field name ="x_intervencinoes" />
-					<field name ="x_nombre_intervenciones"
-						attrs="{'invisible':[('x_intervencinoes','=',False)]}" />
+                                        
                                         <field name="blood_type" />
                                         <field name="current_insurance_id" />
                                     </group>
