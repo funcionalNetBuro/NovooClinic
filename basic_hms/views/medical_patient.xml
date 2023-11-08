@@ -55,7 +55,8 @@
 
                         <group>
                             <separator colspan="4"
-                                string="Patient Critical Information" />
+                                string="Información relevante" />
+			<!--	string="Patient Critical Information" />-->
                             <newline />
                             <field colspan="2" name="critical_info"
                                 nolabel="1" />
