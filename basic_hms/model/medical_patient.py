@@ -65,6 +65,8 @@ class medical_patient(models.Model):
     current_insurance_id = fields.Many2one('medical.insurance',string="Insurance")
     partner_address_id = fields.Many2one('res.partner', string="Address", )
 
+    x_telefono =fields.Char(related='patient_id.phone' readonly=False)
+    x_mail =fields.Char(related='patient_id.email' readonly=False)
     street = fields.Char(related='patient_id.street', readonly=False)
     street2 = fields.Char(related='patient_id.street2', readonly=False)
     zip_code = fields.Char(related='patient_id.zip', readonly=False)
