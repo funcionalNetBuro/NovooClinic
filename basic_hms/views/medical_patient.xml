@@ -409,6 +409,8 @@
                 <tree string="Patient Information">
                     <field name="name" />
                     <field name="patient_id" />
+	            <field name="x_telefono" />
+		    <field name="x_mail" />
                     <field name="sex" />
                     <field name="date_of_birth" />
                     <field name="primary_care_physician_id" />
