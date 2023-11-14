@@ -29,8 +29,8 @@ class medical_prescription_line(models.Model):
     review = fields.Datetime('Review')
     refills = fields.Integer('Refills#')
     short_comment = fields.Char('Comment', size=128 )
-    end_treatment = fields.Datetime('End of treatment')
-    start_treatment = fields.Datetime('Start of treatment')
+    end_treatment = fields.Date('End of treatment')
+    start_treatment = fields.Date('Start of treatment')
 
 
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
