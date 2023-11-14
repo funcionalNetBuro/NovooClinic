@@ -10,7 +10,8 @@ class medical_prescription_order(models.Model):
 
     name = fields.Char('Prescription ID')
     patient_id = fields.Many2one('medical.patient','Patient Name')
-    prescription_date = fields.Datetime('Prescription Date', default=fields.Datetime.now)
+    #prescription_date = fields.Datetime('Prescription Date', default=fields.Datetime.now)
+    prescription_date = fields.Date('Prescription Date')
     user_id = fields.Many2one('res.users','Login User',readonly=True, default=lambda self: self.env.user)
     no_invoice = fields.Boolean('Invoice exempt')
     inv_id = fields.Many2one('account.invoice', 'Invoice')
