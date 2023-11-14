@@ -409,7 +409,7 @@
                 <tree string="Patient Information">
                     <field name="name" />
                     <field name="patient_id" />
-	            <field name="x_telefono" />
+	            <field name="x_telefono" string="Teléfono" />
 		    <field name="x_mail" />
                     <field name="sex" />
                     <field name="date_of_birth" />
